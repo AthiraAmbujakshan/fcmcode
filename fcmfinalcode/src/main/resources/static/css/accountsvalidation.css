@@ -1,0 +1,302 @@
+@charset "ISO-8859-1";
+
+.tabs{
+	
+	margin-top:5px;
+	margin-left:10px;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 15px;
+  width: 15%;
+  height:6vh;
+  margin:0.5px;
+  
+}
+.tabcontent {
+  padding: 70px 20px;
+  height: 57vh;
+  border-style:groove;
+  margin-left:10px;
+  margin-right:10px;
+}
+.line{
+	margin-top:-15px;
+}
+.tablink:hover {
+  background-color: #777;
+}
+.paracontent{
+	margin-left:70px;
+	margin-top:20px
+}
+.text_area{
+	margin-top:20px;
+	margin-left:80px;
+	height:20%;
+	
+}
+.text_area2{
+	margin-top:20px;
+	margin-left:80px;
+	height:20%;
+	display:none;
+}
+.text_area3{
+	margin-top:20px;
+	margin-left:80px;
+	height:20%;
+	display:none;
+}
+.text_area textarea{
+	width:70%;
+	height:100%;
+	overflow-y:scroll;
+	border:1px solid black;
+	white-space: pre-wrap;
+}
+
+.text_area2 textarea{
+	width:70%;
+	height:100%;
+	overflow-y:scroll;
+	border:1px solid black;
+	white-space: pre-wrap;
+}
+.text_area3 textarea{
+	width:70%;
+	height:100%;
+	overflow-y:scroll;
+	border:1px solid black;
+
+}
+.searchbtn{
+	margin-left:880px;
+	margin-top:-60px;
+	height:7vh;
+}
+.searchbtn button{
+	width:38%;
+	padding:7px;
+	border:1px solid black;
+	font-size:16px;
+}
+.searchbtn button:hover,
+.searchbtn button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid green; 
+}
+
+@charset "ISO-8859-1";
+.modal {
+  display:none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /*margin-top: -300px;*/
+  width: 40%; /* Full width */
+  height: 20vh; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  top:280px;
+  left:34%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+.modal-header {
+  padding: 1px 16px;
+
+}
+ .modal-header  h3{
+ 
+ font-size:14px;
+ }
+
+.modal-body {
+	padding: 2px 14px;
+height:27vh;
+	}
+	
+
+.modal-footer {
+  padding: 1px 16px;
+  background-color: lightgrey;
+  color: white;
+  margin-top:30px;
+ bottom:0px;
+ height:7vh;
+}
+
+.buttons{
+margin-left:300px;
+width:40%;
+
+margin-top:10px;
+}
+.buttons button{
+width:30%;
+}
+.nobtn{
+	margin-left:30px;
+}
+.buttons button:focus {
+border: 2px solid blue; 
+cursor:pointer;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+.table{
+	top:300px;
+	}
+.data{
+	margin-top:3%;
+}
+	
+.btnheading{
+	margin-top:15px;
+	
+}
+.backbutton{
+	margin-left:1230px;
+	margin-top:-39%;
+}
+.closescreen{
+	font-size:37px;
+	font-weight:bold;
+	color:black;
+}
+.closescreen:hover{
+	color:green;
+	cursor:pointer;
+}
+
+.matchingheading{
+	
+	height:1vh;
+	margin-left:30px;
+	margin-top:7px;
+	display:none;
+	padding-top:5px;
+	padding-left:50px;
+	font-style:italic;
+}
+.popupid{
+	margin-top:2px;
+	height:2vh;
+}
+.btnheading1{
+	margin-top:17px;
+	
+}
+.modalfornullcheck{
+   display:none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  
+  width: 40%; /* Full width */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  top:240px;
+  left:34%;	
+	
+}
+.modalcontent{
+	background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  
+}
+.modalbody{
+		padding: 2px 14px;
+height:15vh;
+}
+.modalfooter{
+	padding: 1px 16px;
+  background-color: lightgrey;
+  color: white;
+  margin-top:30px;
+ bottom:0px;
+ height:7vh;
+}
+.footerbtn{
+	margin-left:390px;
+width:47%;
+
+margin-top:10px
+}
+.footerbtn button{
+	width:30%;
+
+	}
+	.popupidfornullcheck{
+	margin-top:2px;
+	height:2vh;
+	}
+	
+	
