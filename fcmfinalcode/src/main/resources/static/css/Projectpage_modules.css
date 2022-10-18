@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+.project_name ul{
+	height:0vh;
+	position:fixed;
+}
+
+
+
+.modulesub ul{
+list-style:none;
+font-size:16px;
+
+}
+.modulesub ul li a{
+text-decoration:none;
+}
+
+
+
+.addmodulenewproject{
+	margin-left:30%;
+	margin-right:6%;
+}
+.content{
+	margin-left:30%;
+	margin-right:10%;
+}
+
+.settingscontent{
+
+	margin-top:10px;
+	margin-left:30%;
+	margin-bottom:10%;
+	margin-right:10%;
+	height:70vh;
+	border-style:groove;
+    
+	display:none;
+   
+}
+.openprojectcontent{
+	
+		margin-top:10px;
+	margin-left:30%;
+	margin-bottom:5%;
+	margin-right:10%;
+	height:78vh;
+	border-style:groove;
+	display:none;
+}
+
+
+
+
+
+.openedaddmodule{
+margin-left:-50px;
+margin-top:13px;
+font-size:16px;
+
+}
+.projectsetting{
+	margin-top:-10px;
+	margin-left:-140%;
+	font-size:16px;
+	
+}
+.modulesforopenproject{
+	margin-top:10px;
+	}
+	
+	

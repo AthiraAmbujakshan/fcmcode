@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+.fcmtable{
+display:none;
+}
+.modulesub{
+margin-top:20px;
+margin-left:3%;
+}
+
+
+
+.heading{
+
+text-align:center;
+}
+.inputproject input{
+width:40%;
+}
+.module_table{
+margin-top:20px;
+}
+.modulesub{
+
+margin-top:0px;
+}
+
+.close_modulescreen{
+margin-left:740px;
+margin-top:-243px;
+font-size:30px;
+ color: #000;
+  text-decoration: none;
+  cursor: pointer;
+/*font-weight:bold;*/
+/*line-height:15px;*/
+/*width:2.5%;*/
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.table_modulesforopenproject{
+	margin-left:-25%;
+  
+  margin-top:18%;
+	width:260px;
+}
+.table_modulesforopenproject td{
+	font-size:16px;
+	
+}
+

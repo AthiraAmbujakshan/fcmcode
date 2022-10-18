@@ -1,0 +1,435 @@
+@charset "ISO-8859-1";
+
+.modulearrow{
+margin-left:-70px;
+
+
+}
+
+
+
+.addmodulenewproject{
+	
+	margin-top:10px;
+	margin-left:25%;
+	margin-bottom:10%;
+	margin-right:11%;
+	height:75vh;
+	border-style:groove;
+	
+   
+}
+.moduleheading{
+	margin-top:3%;
+	color:#800000;
+	
+    margin-left:10%;
+	font-size:22px;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+}
+
+ .moduletable{
+	border-collapse:collapse;
+	margin-top:20px;
+	margin-left:30px;
+	margin-right:300px;
+	width:40%;
+	height:70%;
+	
+}	
+ .modulenames{
+	border:1px solid black;
+	width:120px;
+	text-align:center;
+	padding:1px;
+}	
+.moduleselecticon{
+	
+	border-style:groove;
+margin-top:  -220px;
+margin-left: 400px;
+width:50px;
+text-align:center;
+}	
+.moduleremoveicon{
+	border-style:groove;
+margin-top:  25px;
+margin-left: 400px;
+width:50px;
+text-align:center;
+}
+.selectrows{
+	width:24px;
+	text-align:center;
+}
+.moduletable td input[type =checkbox]{
+	width:16px;
+	text-align:center;
+}
+.moduletable2{
+	border-style:groove;
+	margin-top:-170px;
+	margin-left:480px;
+	border:solid;
+	width:40%;
+	height:70%;
+	
+}
+@charset "ISO-8859-1";
+
+* {
+	
+	margin:0;
+	padding:0;
+	user-select:none;
+	box-sizing:border-box;
+	font-family:'Poppins',sans-serif;
+	
+}
+html{
+	overflow:hidden;
+}
+
+.heading{
+	
+	color:white;
+	text-decoration: none;
+	font-size: 2rem;
+	padding-left: 400px;
+	display: flex;
+	text-align:center;
+	justify-content: space-between;
+	width:70rem;
+}
+.sidebar{
+	
+	
+	position:fixed;
+	width:250px;
+	height:100%;
+	left:0;
+	background:black;
+	color:white;
+	font-size:25px;
+	font-weight:600;
+	line-height:65px;
+	
+	background:white;
+	letter-spacing:1px;
+	
+	top:84px;
+	
+}
+
+
+nav ul{
+	width:100%;
+	height:100%;
+	background:#1b1b1b;
+	list-style:none;
+	Padding-top:0px;
+	
+}
+nav ul li{
+	
+	border-bottom:1px solid rgba(255,255,255,0.1);
+	font-size:21px;
+	left:3px;
+}
+nav ul li a{
+	position:relative;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	padding-left:20px;
+	font-weight:500;
+	display:block;
+	width:100%;
+	border-left:3px solid transparent;
+}
+
+nav ul li a:hover{
+	color:cyan;
+	background:#1e1e1e;
+	border-left-color:cyan;
+	
+}
+
+
+
+nav ul ul{
+	position:static;
+padding-top:0px;
+display:none;
+	
+	
+} 
+
+
+
+
+
+nav ul ul li{
+	line-height:42px;
+	border-bottom:none;
+}
+nav ul ul li a{
+	font-size:17px;
+	color:#e6e6e6;
+	padding-left:40px;
+}
+
+nav ul  li a span{
+	
+	position:absolute;
+	right:20px;
+	top:40%;
+	transform:translativeY(-50%);
+	font-size:17px;
+	transition:transform 0.4s;
+
+}
+
+nav ul  li a span.rotate{
+	transform:translateY(-50%) ;
+	
+}
+
+
+
+.close-btn{
+	cursor:pointer;
+	position:absolute;
+	right:20px;
+	top:20px;
+	width:30px;
+	height:30px;
+	background:#222;
+	color:#fff;
+	font-size:25px;
+	font-weight:600;
+	line-height:30px;
+	text-align:center;
+	border-radius:50%;
+	
+}
+.logbtn{
+	right:0;
+}
+
+.logbtn a{
+	
+	position:relative;
+	display:inline-block;
+	padding:6px 20px;
+	margin:10px 0px;
+	color:#fff;
+	text-decoration:none;
+	text-transform:upercase;
+	 font-size:18px;
+	 border-radius:40px;
+	 background:#7d417e;
+}
+.logbtn a:hover{
+	background-color: lightblue;
+}	
+
+.createbtn{
+	 width:20%;
+   outline:none;
+    margin-left:70px;
+     color:#fff;
+    border:none;
+    height:5.5vh;
+    position:relative;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+	
+	
+	
+}
+
+.content{
+	
+	margin-top:10px;
+	margin-left:30%;
+	margin-bottom:10%;
+	margin-right:10%;
+	height:70vh;
+	border-style:groove;
+	display:none;
+   
+}
+
+
+
+
+
+
+label{
+	padding-left:150px;
+  
+	
+	
+}
+input{
+	width:30%;
+	height:5vh;
+}
+
+
+
+.popheading{
+	margin-top:10%;
+	color:#800000;
+	
+    margin-left:10%;
+	font-size:22px;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+	
+	
+}
+
+
+
+
+.createbtn:hover{
+	background-color: lightblue;
+}
+
+
+
+
+.explorerHeading{
+	
+	
+	font-size:18px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.explorerHeading{
+color:red;
+display:block;
+}
+
+.sidebar{
+display:block;
+background:white;
+width:300px;
+height:35vh;
+
+}
+
+.explorerHeading{
+	
+margin-top:20px;
+	font-size:18px;
+	
+}
+
+.submenu{
+display:block;
+}
+
+nav ul li{
+font-size:21px;
+margin-left:6px;
+}
+
+.projectmenu  {
+display:flex;
+margin-top:18px;
+margin-left:15px;
+list-style:none;
+font-size:18px;
+height:100%;
+}
+
+
+
+.modulelist ul{
+list-style:none;
+display:flex;
+font-size:16px;
+
+}
+
+
+
+
+
+.openprojectheading{
+	margin-top:5%;
+	color:#800000;
+	
+    margin-left:10%;
+	font-size:22px;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+	
+	
+}
+.openprojectcontent  select{
+	
+	margin-left:70px;
+	margin-top:40px;
+	width:60%;
+	height:5vh;
+}
+.openprojectname{
+	 width:15%;
+   outline:none;
+    margin-left:65px;
+     color:#fff;
+    border:none;
+    height:5.5vh;
+    position:relative;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+}
+.copyright{
+padding:10px;
+
+}
+.copyright p{
+	font-size:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,257 @@
+@charset "ISO-8859-1";
+.databaseform select{
+	
+	width: 307px;
+	height: 30px;
+}
+
+.databasesettings{
+	color:brown;
+	padding-top:35px;
+	margin-left:60px;
+	text-align:center;
+	margin-bottom:20px;
+text-decoration: none;
+  font-size: 2rem;
+  width:40rem;
+  text-shadow:0 0 20px rgba(0,0,0,0.5);
+	margin-top:10px;
+}
+
+.databaseform{
+
+
+ height: 90%;
+ width:100%;
+ margin-top:60px;
+ margin-left:80px;
+ 
+
+}
+
+.databaseform label{
+font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 15px;
+ color: #333;
+ height: 20px;
+ width: 300px;
+ margin-top: 2px;
+ 
+ display:inline-block;
+ 
+
+}
+.databaseform input{
+
+height: 25px;
+ width: 300px;
+ 
+ margin-top: 10px;
+ 
+   
+  
+}
+
+.databaseimage{
+	
+
+	width:300px;
+	height:78%;
+
+	top:90px;
+	margin-left:800px;
+	
+}
+.image{
+	margin-left:60px;
+	margin-top:180px;
+	
+	width:60%;
+}
+
+
+
+.submitbtn{
+	width:20%;
+   outline:none;
+    left:22%;
+    position:relative;
+     color:#fff;
+    border:none;
+    height:6vh;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+	 margin-top:30px;
+}
+.submitbtn:hover{
+	
+	 cursor: pointer;
+}
+
+.projectsetting{
+	margin-top:40px;
+	margin-left:-17%;
+	font-size:16px;
+	position:absolute;
+	
+}
+
+.settingscontent{
+
+	margin-top:-350px;
+	margin-left:3%;
+	margin-bottom:10%;
+	margin-right:20%;
+	height:70vh;
+	width:80%;
+    text-align:left;
+  
+}
+
+.projectsetting a{
+	text-decoration:none;
+}
+.projectsettingfornewproject{
+	position:fixed;
+	margin-left:10px;
+	margin-top:1%;
+	display:none;
+}
+
+
+.projectsettingfornewproject li  a{
+	text-decoration:none;
+}
+.databaseimage{
+left:1050px;
+}
+.addmodulesforopenedproject {
+	margin-top:-4%;
+}
+.table_modulesforopenproject{
+	margin-top:12.5%;
+}
+
+.projectname{
+
+top:280px;
+height:300px;
+width:301px;
+bottom:0;
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  
+  
+  width: 30%; /* Full width */
+  height: 5vh; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+  top:250px;
+  left:30%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: lightgrey;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  border:1px solid green;
+}
+
+/* The Close Button */
+.closepopup {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closepopup:hover,
+.closepopup:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 1px 16px;
+
+}
+ 
+
+.modal-body {
+	margin-top:10%;
+	padding: 2px 14px;
+height:2vh;
+
+
+	}
+	.modal-body p{
+	margin-top:2px;
+	margin-left:73px;
+	font-size:18px;
+	}
+	
+
+.modal-footer {
+  padding: 1px 16px;
+  color: white;
+  margin-top:20px;
+ bottom:0px;
+ height:7vh;
+}
+
+.buttons{
+margin-left:300px;
+width:50%;
+
+margin-top:10px;
+}
+.buttons button{
+width:30%;
+}
+.buttons button:focus {
+border: 2px solid green; 
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+.header-heading p{
+	font-size:26px;
+	margin-left:30px;
+}

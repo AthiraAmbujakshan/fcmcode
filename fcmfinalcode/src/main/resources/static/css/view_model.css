@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+body{
+	
+	margin:0;
+	padding:0;
+	font-family:arial;
+
+}
+.mappingscreen1{
+	margin-top:20px;
+	margin-left:10%;
+	margin-bottom:5%;
+	margin-right:5%;
+	height:79vh;
+	display:block;
+	border-style:groove;
+	
+}
+.inputtext1{
+	 width:10%;
+	text-align:center;
+
+	
+}
+.text{
+	
+	 width:100%;
+	background:#808080;
+	text-align:center;
+	height:4vh;
+	border:none;
+}
+
+.migrationmodule1{
+	width:270%;
+	height:12vh;
+	
+}
+
+
+
+
+th{
+	background:#b9660b;
+	color:white;
+	position:sticky;
+	top:0;
+	
+}
+
+table ,th,td{
+	
+	width:900px;
+	margin:auto;
+	font-size:12px;
+	text-align:center;
+	border:1px solid #808080;
+	border-collapse:collapse;
+	Padding:3px;
+	
+}
+.tablemodifier{
+	margin-top:30px;
+	overflow:auto;
+	width:900px;
+	height:380px;
+	margin-left:100px;
+
+} 
+.backbutton{
+	margin-left:800px;
+	
+}
+.pdfbutton{
+	
+	margin-left:630px;
+	margin-top:14px;
+	height:2.5vh;
+}
+.projectdata{
+	
+	margin-left:800px;
+	margin-top:-70px;
+	color:black;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	color:green;
+	width:100%;
+}
+.projectdata  input{
+	border:none;
+	color:green;
+}
+
+.excelbutton{
+	margin-left:450px;
+	margin-top:-15px;
+	
+}
+.excelbutton button:hover{
+border: 2px solid green; 
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pdfbutton button:hover{
+border: 2px solid green; 
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.backbutton button:hover{
+border: 2px solid green; 
+  text-decoration: none;
+  cursor: pointer;
+}
+

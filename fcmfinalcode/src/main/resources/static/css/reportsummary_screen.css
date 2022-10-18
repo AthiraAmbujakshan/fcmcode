@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+.success{
+	
+	margin-top:24%;
+	margin-left:30%;
+	height:60vh;
+	margin-bottom:100px;
+	width:40%;
+	
+	transform:translate(-50%, -50%);
+	
+}
+.success img{
+
+margin-left:20px;
+margin-top:-70px;
+
+}
+.summarytable{
+	
+	margin-top:-700px;
+	height:40vh;
+	width:40%;
+	margin-left:570px;
+}
+.finalreport{
+	width:120%;
+	height:90%;
+	
+}
+
+.finalreport tr{
+	height:3vh;
+	
+	
+}
+.finalreport td{
+	text-align:left;
+	font-size:13px;
+	width:150px;
+}
+
+	
+.finalreport  thead  tr th {
+
+	color: #000000;
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+	width:150px;
+	
+}
+
+.border{
+	margin-left:6%;
+	height:70vh;
+	margin-right:3%;
+	border-style:groove;
+}
+.exporttopdfbtn{
+	margin-left:700px;
+	margin-top:60px;
+	
+}
+.exporttopdfbtn button{
+	height:4vh;
+}
+.pdfbtn:hover{
+	border: 2px solid green; 
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closebtn:hover{
+	border: 2px solid green; 
+  text-decoration: none;
+  cursor: pointer;
+}
+.closebtn{
+	margin-left:40px;
+
+}
+.excelbtn{
+	margin-left:30px;
+}
+.excelbtn:hover{
+	border: 2px solid green; 
+  text-decoration: none;
+  cursor: pointer;
+}

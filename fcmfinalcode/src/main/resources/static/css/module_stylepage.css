@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.moduletable tr{
+ align:center;
+}
+.addmodulenewproject{
+	
+	display:none;
+}
+.savemodules {
+	
+	
+	border-style:none;
+	padding:auto;
+	width:16%;
+	height:6vh;
+	margin-left:650px;
+	margin-top:20px;
+	color:#fff;
+	text-align:center;
+	 font-size:18px;
+	 border-radius:40px;
+	 background:#008040;
+
+}
+.savemodules:hover{
+	background-color: lightblue;
+}	

@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+.projectmenu  {
+display:flex;
+margin-top:18px;
+margin-left:15px;
+list-style:none;
+font-size:18px;
+height:100%;
+}
+
+
+
+.modulelist ul{
+list-style:none;
+display:flex;
+font-size:16px;
+
+}
+
+
+
+
+
+.openprojectheading{
+	margin-top:5%;
+	color:#800000;
+	
+    margin-left:10%;
+	font-size:22px;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+	
+	
+}
+.openprojectcontent  select{
+	
+	margin-left:70px;
+	margin-top:40px;
+	width:60%;
+	height:5vh;
+}
+.openprojectname{
+	 width:15%;
+   outline:none;
+    margin-left:65px;
+     color:#fff;
+    border:none;
+    height:5.5vh;
+    position:relative;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+}
+

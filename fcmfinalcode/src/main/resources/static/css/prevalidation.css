@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+
+.header-heading p{
+font-size:26px;
+}
+.subcontent p{
+margin:0;
+padding:0;
+
+}
+.buttons{
+	margin-top:60px;
+	margin-left:350px;
+	padding:10px;
+	display:inline-block;
+	width:60%;
+	
+}
+.btn1{
+	width:20%;
+	height:4vh;
+	font-size:16px;
+}
+.btn2{
+	margin-left:40px;
+	width:20%;
+	height:4vh;
+	font-size:16px;
+}
+
+.btn3{
+	margin-left:40px;
+	width:20%;
+	height:4vh;
+	font-size:16px;
+}
+.btn1:hover,
+.btn1:focus {
+  color: green;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid green; 
+}
+.btn2:hover,
+.btn2:focus {
+  color: green;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid green; 
+}
+.btn3:hover,
+.btn3:focus {
+  color: green;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid green; 
+}

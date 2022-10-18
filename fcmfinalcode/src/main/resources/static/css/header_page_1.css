@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+.header {
+	height: 10vh;
+	background: #000040;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-heading {
+	padding-left: 320px;
+	font-size: 26px;
+	margin-left: -10px;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 40rem;
+}
+
+.header-heading p{
+font-size:26px;
+}
+
+.logo {
+	margin-left: -35px;
+	margin-bottom: 0;
+}

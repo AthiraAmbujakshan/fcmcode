@@ -1,0 +1,378 @@
+@charset "ISO-8859-1";
+* {
+	
+	margin:0;
+	padding:0;
+	user-select:none;
+	box-sizing:border-box;
+	font-family:'Poppins',sans-serif;
+	
+}
+html{
+	overflow:hidden;
+}
+
+.heading{
+	
+	color:white;
+	text-decoration: none;
+	font-size: 2rem;
+	padding-left: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width:70rem;
+}
+.sidebar{
+	
+	
+	position:fixed;
+	width:250px;
+	height:100%;
+	left:0;
+	background:black;
+	color:white;
+	font-size:25px;
+	font-weight:600;
+	line-height:65px;
+	
+	background:white;
+	letter-spacing:1px;
+	
+	top:84px;
+	
+}
+
+
+nav ul{
+	width:100%;
+	height:100%;
+	background:#1b1b1b;
+	list-style:none;
+	Padding-top:50px;
+	
+}
+nav ul li{
+	line-height:60px;
+	border-bottom:1px solid rgba(255,255,255,0.1);
+	font-size:21px;
+	left:3px;
+}
+nav ul li a{
+	position:relative;
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	padding-left:20px;
+	font-weight:500;
+	display:block;
+	width:100%;
+	border-left:3px solid transparent;
+}
+
+nav ul li a:hover{
+	color:cyan;
+	background:#1e1e1e;
+	border-left-color:cyan;
+	
+}
+
+
+
+nav ul ul{
+	position:static;
+padding-top:0px;
+display:none;
+	
+	
+} 
+
+
+
+.databasesettings{
+	color:brown;
+	padding-top:15px;
+	margin-left:60px;
+	margin-bottom:20px;
+text-decoration: none;
+  font-size: 2rem;
+  width:40rem;
+  text-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+}
+
+nav ul ul li{
+	line-height:42px;
+	border-bottom:none;
+}
+nav ul ul li a{
+	font-size:17px;
+	color:#e6e6e6;
+	padding-left:40px;
+}
+
+nav ul  li a span{
+	
+	position:absolute;
+	right:20px;
+	top:40%;
+	transform:translativeY(-50%);
+	font-size:17px;
+	transition:transform 0.4s;
+
+}
+
+nav ul  li a span.rotate{
+	transform:translateY(-50%) ;
+	
+}
+
+
+
+.close-btn{
+	cursor:pointer;
+	position:absolute;
+	right:20px;
+	top:20px;
+	width:30px;
+	height:30px;
+	background:#222;
+	color:#fff;
+	font-size:25px;
+	font-weight:600;
+	line-height:30px;
+	text-align:center;
+	border-radius:50%;
+	
+}
+.logbtn{
+	right:0;
+}
+
+.logbtn a{
+	
+	position:relative;
+	display:inline-block;
+	padding:12px 36px;
+	margin:10px 0px;
+	color:#fff;
+	text-decoration:none;
+	text-transform:upercase;
+	 font-size:18px;
+	 border-radius:40px;
+	 background:#7d417e;
+}
+.logbtn a:hover{
+	background-color: lightblue;
+}	
+
+.createbtn{
+	 width:20%;
+   outline:none;
+    margin-left:70px;
+     color:#fff;
+    border:none;
+    height:5.5vh;
+    position:relative;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+label{
+	padding-left:150px;
+  
+	
+	
+}
+input{
+	width:30%;
+	height:5vh;
+}
+
+
+
+.popheading{
+	margin-top:10%;
+	color:#800000;
+	
+    margin-left:10%;
+	font-size:22px;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	
+	
+	
+}
+
+
+
+
+.createbtn:hover{
+	background-color: lightblue;
+}
+
+
+
+
+.explorerHeading{
+	
+	
+	font-size:18px;
+	
+	
+}
+
+
+
+
+
+.settingscontent{
+
+	margin-top:10px;
+	margin-left:25%;
+	margin-bottom:10%;
+	margin-right:15%;
+	height:70vh;
+	border-style:groove;
+    
+	display:none;
+   
+}
+
+.databaseform{
+
+
+ height: 100%;
+ width:100%;
+ margin-top:80px;
+ 
+
+}
+
+.databaseform label{
+font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 15px;
+ color: #333;
+ height: 20px;
+ width: 400px;
+ margin-top: 10px;
+ 
+ display:inline-block;
+ 
+
+}
+.databaseform input{
+
+height: 25px;
+ width: 300px;
+ 
+ margin-top: 10px;
+ 
+   
+  
+}
+
+.databaseimage{
+	
+	position:fixed;
+	width:300px;
+	height:78%;
+	right:0px;
+	display:none;
+	
+	top:90px;
+	
+}
+.image{
+	margin-left:50px;
+	margin-top:160px;
+	
+	width:60%;
+}
+.createbtn1{
+	 width:15%;
+   outline:none;
+    left:60%;
+     color:#fff;
+    border:none;
+    height:5.5vh;
+    position:relative;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+}
+.createbtn2{
+	 width:15%;
+   outline:none;
+    left:65%;
+     color:#fff;
+    border:none;
+    height:5.5vh;
+    position:relative;
+	padding:8px 16px;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	 background:green;
+}
+
+
+
+
+
+
+.explorerHeading{
+color:red;
+display:block;
+}
+
+.sidebar{
+display:block;
+background:white;
+width:300px;
+height:35vh;
+
+}
+.projectname{
+
+	width:300px;
+	height:400px;
+	left:0;
+	
+	position:fixed;
+	
+	border-style:groove;
+	top:280px;
+	
+
+}
+.explorerHeading{
+	
+margin-top:20px;
+	font-size:18px;
+	
+}
+
+.submenu{
+display:block;
+}
+
+nav ul li{
+font-size:21px;
+margin-left:6px;
+}
+

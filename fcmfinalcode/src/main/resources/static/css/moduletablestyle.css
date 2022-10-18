@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+.module_table{
+margin-left:24%;
+}
+
+.openedaddmodule{
+margin-left:-50px;
+margin-top:22px;
+font-size:16px;
+color:black;
+position:absolute;
+
+}
+
+	
+	.showmodules{
+	font-size:16px;
+	margin-top:6%;
+	margin-left:5%;
+	margin-bottom:10%;
+	position:absolute;
+}
+
+
+
+.projectname{
+
+	width:300px;
+	height:300px;
+	left:0;
+	position:fixed;
+	border-style:groove;
+	top:280px;
+	
+
+}
+.projectmenu {
+	height:10%;
+}
+.sidebar{
+	width:23.5%;
+	position:fixed;
+}
+
+
+.module-table td{
+	font-size:14px;
+	white-space:nowrap;
+}
+.module_table{
+	margin-top:10%;
+	margin-left:15%;
+	margin-bottom:5%;
+	margin-right:0%;
+	width:160%;
+	
+}
+
+.moduleopen{
+margin-left:25px;
+font-size:16px;
+margin-top:20px;
+display:inline-block;
+}

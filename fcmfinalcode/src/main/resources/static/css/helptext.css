@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+.tooltip{
+	margin-left:1150px;
+	margin-top:-470px;
+	font-size:24px;
+	position:relative;
+	
+}
+/*.tooltip .tooltiptext{
+	display:none;
+	width:80px;
+	color:black;
+	text-align:center;
+	z-index:1;
+	top:-5px;
+	left:105%;
+	font-size:16px;
+}
+.tooltip:hover .tooltiptext{
+	display:block;
+}*/
+.messagebox{
+	display:none;
+	height:60vh;
+	width:400px;
+
+ background:white;
+  
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+	border:1px solid black;
+	
+	margin-left:850px;
+	margin-right:40px;
+	margin-top:70px;
+	overflow-y:scroll;
+	
+}
+
+.closemsgbox{
+font-size:30px;
+	color:black;
+	float:right;
+	font-weight:bold;
+}
+
+.closemsgbox:hover,
+.closemsgbox:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.description  h3{
+	text-align:center;
+	font-size:16px;
+}
+.description h5{
+	margin-top:5px;
+	margin-left:18px;
+	font-size:14px;
+	
+}
+.description p{
+	margin-top:-30px;
+	padding:12px;
+	text-align:justify;
+	
+}

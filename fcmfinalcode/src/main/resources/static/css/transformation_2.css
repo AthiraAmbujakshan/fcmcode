@@ -1,0 +1,232 @@
+@charset "ISO-8859-1";
+.transformation_screen{
+	height:80vh;
+	margin-left:4%;
+	margin-right:3%;
+	border-style:groove;
+	margin-top:1%;
+}
+
+.transformation{
+height:70vh;
+margin-left:2%;
+margin-right:30px;
+margin-top:5%;
+overflow:auto;
+
+
+
+}
+.transferedtable{
+	
+	
+	height:100%;
+	width:97%;
+	margin-left:3%;
+	margin-right:4%;
+	margin-bottom:3%;
+	} 
+	.transferedtable th, td{
+	border:1px solid black;
+	border-collapse:collapse;
+
+	 }
+	.transferedtable td{
+	text-align:center;
+	font-size:13px;
+	height:3.5vh;
+
+	}
+	
+	
+	
+.transferedtable thead td{
+	background:white;
+	color:#000000;
+	position:sticky;
+	top:0;
+	font-weight:bold;
+	font-size:13px;
+	height:50px;
+}
+.transferedtable tbody td select{
+	border:none;
+	
+}
+.transferedtable  tbody td  input{
+	border:none;
+	width:98%;
+}
+
+.tables{
+	display:none;
+} 
+.transformationbtn{
+	
+	margin-top:-465px;
+	margin-left:900px;
+	
+	
+}
+.transformationbtn button:focus {
+border: 2px solid green; 
+}
+.transformationlogic{
+	display:block;
+	height:4vh;
+}
+.lookup_btn{
+	margin-left:750px;
+	margin-top:-2%;
+}
+.lookup{
+	
+	height:4vh;
+}
+.lookupbtn button:focus {
+border: 2px solid green; 
+}
+.lookupscreen{
+   
+   display: none; 
+  position: absolute; 
+  z-index: 1; 
+  margin-left: 200px;
+  margin-top: 30px;
+  width: 50%; 
+  height: 50vh; 
+
+  border-style:groove;
+             
+  }
+  
+   .lookup-content {
+  background-color: #fefefe;
+  width: 100%;
+  
+  height:6vh;
+  position:absolute;
+}
+  
+  
+  .lookup-header{
+  padding:  1px;
+  display:inline-flex;
+  position:relative;
+ 
+  }
+  .lookup-header h4{
+  margin-top:7px;
+  margin-left:3px;
+ font-size:10px;
+
+ 
+
+  }
+ 
+  .closebtn {
+  color: black;
+  float: right;
+  margin-left:40px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right:0;
+  
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.minimisebtn{
+	margin-left:340px;
+	font-size: 16px;
+  font-weight: bold;
+}
+.maximisebtn{
+	margin-left:40px;
+	margin-top:5px;
+	font-size: 16px;
+  font-weight: bold;
+}
+.maximisebtn:hover, 
+.maximisebtn:focus{
+	color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.lookup-tablebtn{
+	
+	padding: 2px 16px;
+    background-color: #fefefe;
+  height:5vh;
+ 
+
+}
+.lookup-tablebtn button{
+	width:20%;
+	margin-top:1%;
+	display:inline-block;
+	
+	
+}
+.addbtn{
+	margin-left:170px;
+}
+.lookup-body{
+	
+	 background-color: #fefefe;
+  height:38.7vh;
+  
+
+ 
+}
+.content{
+	border:1px solid black;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:5px;
+	height:38vh;
+	 background-color: #ffffff;
+}
+
+
+.looktable{
+	width:100%;
+	border-collapse:collapse;
+}
+.looktable tr{
+	height:3vh;
+	
+}
+.looktable td{
+	text-align:left;
+	font-size:13px;
+}
+.looktable  input[type=text]{
+	border:none;
+	width:98%;
+
+}
+.looktable  input[type=checkbox]
+{
+	width:40%;
+}
+	
+.looktable  thead  tr th {
+	background: white;
+	color: #000000;
+	font-size:13px;
+	
+}
+.looktable thead tr{
+	
+	color:white;
+}
+
+
+  
+  

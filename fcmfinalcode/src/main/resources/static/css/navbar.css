@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+.topheaderbar{
+	
+	height:4vh;
+	background: #c0c0c0;
+	top:0;
+	
+   
+}
+.navbar{
+	
+	height:10vh;
+	background:#4974a5;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.navbarheading{
+	color:white;
+	text-decoration: none;
+	font-size: 2rem;
+	padding-left: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width:40rem;
+	
+}
+

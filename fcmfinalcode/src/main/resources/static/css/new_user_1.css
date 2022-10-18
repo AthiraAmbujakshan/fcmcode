@@ -1,0 +1,175 @@
+@charset "ISO-8859-1";
+.topheaderbar{
+	
+	height:4vh;
+	background: #c0c0c0;
+	top:0;
+	
+   
+}
+
+ .modal {
+  display: block; 
+  position: fixed; 
+  z-index: 1;
+  margin-left: 420px;
+  margin-top: -170px;
+  width: 35%; 
+  height: 30vh; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  -webkit-animation-name: fadeIn; 
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+  
+}
+
+
+.modal-content {
+  background-color: lightgrey;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 1px 16px;
+
+}
+
+.modal-header h3{
+	color:#800000;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 1px 16px;
+  background-color: lightgrey;
+  color: white;
+  margin-top:30px;
+ bottom:0px;
+ height:7vh;
+}
+
+
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+.buttons{
+margin-left:350px;
+width:50%;
+
+margin-top:10px;
+}
+.buttons button{
+width:30%;
+height:4.5vh;
+}
+.buttons button:focus {
+border: 2px solid green; 
+}
+
+
+.form{
+	
+	
+	 width:60%;
+   padding:20px auto;
+  margin-left:20%;
+   margin-top:40px;
+   box-shadow:0 0 20px rgba(0,0,0,0.5);
+  height:60vh;
+background:white;
+
+}
+h2{
+	font-size:30px;
+	text-align:center;
+	padding-top:20px;
+	text-shadow:0 0 20px rgba(0,0,0,0.5);
+	color:#804040;
+}
+.form-head{
+	
+	height:8vh;
+	
+}
+
+ .input-box{
+	width:80%;
+	 margin-top:50px;
+  
+    padding-left:40px;
+    border-bottom:ipx solid #fff;
+    padding-top:6px;
+    padding-bottom:10px;
+}
+label{
+	display:inline-block;
+	width:100px;
+}
+input-box input{   
+   
+    width:90%;
+    border-style:none;
+    outline:none;
+    padding:7px;
+   background: #f1f1f1;
+}
+::placeholder{
+	color:#ccc;
+}
+.btn {
+	
+    background-color: #04AA6D;
+   margin-left:500px;
+    color: white;
+    padding-left: 10px;
+   border-style:none;
+height:6vh;
+    width: 25%;
+
+}
+.error{
+	
+	color:red;
+	margin-left:65px;
+	margin-right:400px;
+	height:1vh;
+}
+

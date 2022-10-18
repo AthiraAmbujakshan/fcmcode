@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+.tabs{
+	
+	margin-top:60px;
+	margin-left:10px;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px;
+  font-size: 15px;
+  width: 15%;
+  height:6vh;
+  margin:0.5px;
+  
+}
+.tabcontent {
+  padding: 100px 20px;
+  height: 30vh;
+  border-style:groove;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+.paracontent{
+	margin-left:70px;
+	margin-top:30px
+}
+.text_area{
+	margin-top:40px;
+	margin-left:80px;
+	height:60%;
+	
+}
+.text_area textarea{
+	width:70%;
+	height:100%;
+	overflow-y:scroll;
+	border:1px solid black;
+}
+.searchbtn{
+	margin-left:860px;
+	margin-top:-110px;
+	height:7vh;
+}
+.searchbtn button{
+	width:38%;
+	padding:7px;
+	border:1px solid black;
+	font-size:16px;
+}
+.searchbtn button:hover,
+.searchbtn button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid green; 
+}

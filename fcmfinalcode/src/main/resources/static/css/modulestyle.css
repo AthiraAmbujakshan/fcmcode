@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+
+.projectmenu ul{
+
+display:inline-block;
+list-style:none;
+}
+
+.moduletable td {
+	text-align:center;
+}
+
+
+.modulelist{
+	display:none;
+	margin-top:20px;
+	margin-left:30px;
+	position:fixed;
+}
+.modulesub{
+
+display:none;
+
+padding-left:10px;
+margin-top:35px;
+margin-left:40px;
+position:fixed;
+}
+	
+
+
